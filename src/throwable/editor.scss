@@ -1,0 +1,21 @@
+/**
+ * The following styles get applied inside the editor only.
+ */
+
+.wp-block-blocklayouts-throwable {
+	min-height: 400px;
+	.throwable-container {
+		padding: 16px;
+		.block-editor-inner-blocks {
+			.block-editor-block-list__layout {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 10px;
+				align-items: flex-start;
+				& > * {
+					margin: 0;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ */
+
+// TODO: all of this should be only on the frontend
+.wp-block-blocklayouts-throwable:not(.block-editor-block-list__block) {
+	position: relative;
+	overflow: hidden;
+	min-height: 400px;
+
+	&[data-tp-throwable-scene] {
+		.throwable-container {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			> * {
+				position: absolute;
+				user-select: none;
+				display: inline-block;
+				cursor: pointer;
+				margin: 0;
+			}
+			img {
+				pointer-events: none;
+			}
+		}
+	}
+}
+.wp-block-blocklayouts-throwable:not(.has-background) {
+	background-color: #f6f6f6;
+}

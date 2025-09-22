@@ -1,0 +1,63 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "blocklayouts/throwable",
+	"version": "0.1.0",
+	"title": "Throwable",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "A physics-based throwable block container with innerBlocks support.",
+	"example": {},
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"],
+		"color": {
+			"enableContrastChecker": false,
+			"background": true,
+			"gradients": true,
+			"text": true,
+			"__experimentalDefaultControls": {
+				"text": true,
+				"background": true
+			}
+		},
+		"spacing": {
+			"margin": true,
+			"units": ["px", "em", "rem", "vh", "vw"],
+			"__experimentalDefaultControls": {
+				"margin": true
+			}
+		},
+		"dimensions": {
+			"minHeight": true
+		},
+		"__experimentalBorder": {
+			"radius": true,
+			"color": true,
+			"width": true,
+			"style": true,
+			"__experimentalDefaultControls": {
+				"radius": true,
+				"color": true,
+				"width": true,
+				"style": true
+			}
+		},
+		"innerBlocks": true
+	},
+	"attributes": {
+		"gravity": {
+			"type": "number",
+			"default": 0.8
+		},
+		"restitution": {
+			"type": "number",
+			"default": 0.3
+		}
+	},
+	"textdomain": "throwable",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

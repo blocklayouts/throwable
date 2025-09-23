@@ -4,7 +4,7 @@
 
 A physics-based WordPress block that lets you throw and bounce content around with realistic physics simulation.
 
-## 🎯 Features
+## Features
 
 - **Physics Simulation**: Powered by Matter.js for realistic physics
 - **InnerBlocks Support**: Add any content blocks (paragraphs, headings, buttons, images)
@@ -12,7 +12,7 @@ A physics-based WordPress block that lets you throw and bounce content around wi
 - **Responsive Design**: Works perfectly on all devices
 - **Easy to Use**: Simple drag-and-drop interface
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Install the Plugin**
    - Upload to `/wp-content/plugins/throwable/`
@@ -37,7 +37,7 @@ A physics-based WordPress block that lets you throw and bounce content around wi
      - **Gravity**: Control fall speed (0.1 - 2.0)
      - **Bounce**: Control how much blocks bounce (0 - 1)
 
-## 🎮 How It Works
+## How It Works
 
 The Throwable block creates an interactive physics playground where your content blocks become physical objects that:
 
@@ -45,7 +45,7 @@ The Throwable block creates an interactive physics playground where your content
 - **Bounce realistically** - Blocks bounce off each other and walls
 - **Collide with each other** - Objects interact physically
 
-## ⚙️ Physics Settings
+## Physics Settings
 
 ### Gravity
 - **Range**: 0.1 to 2.0
@@ -61,7 +61,7 @@ The Throwable block creates an interactive physics playground where your content
 - **0**: No bounce (objects stick)
 - **1**: Perfect bounce (no energy loss)
 
-## 🎨 Supported Blocks
+## Supported Blocks
 
 The Throwable block works with most common WordPress blocks:
 
@@ -69,32 +69,32 @@ The Throwable block works with most common WordPress blocks:
 - **Media Blocks**: Images
 - **Interactive Blocks**: Buttons
 
-## 📱 Mobile Support
+## Mobile Support
 
 - Fully responsive design
 - Touch-friendly interactions
 - Optimized performance on mobile devices
 - Physics simulation works smoothly on all screen sizes
 
-## 🛠️ Development
+## Development
 
 ### Technologies Used
 - **Matter.js**: Physics simulation engine
 
-## 📋 Changelog
+## Changelog
 
 ### 0.1.0
 - Initial release
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please feel free to submit issues and pull requests.
 
-## 📄 License
+## License
 
 This plugin is licensed under the GPL-2.0-or-later license.
 
-## 🔗 Links
+## Links
 
 - **Plugin URI**: https://blocklayouts.com/plugins/throwable
 - **Author**: qarayahya

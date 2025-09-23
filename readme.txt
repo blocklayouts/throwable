@@ -16,12 +16,10 @@ The Throwable block creates an interactive physics simulation where inner blocks
 - Physics simulation using Matter.js
 - Support for innerBlocks (paragraphs, headings, buttons, etc.)
 - Customizable physics settings (gravity, bounce)
-- Scroll-based gravity effects
 
 **Physics Settings:**
 - **Gravity**: Control the strength of gravity (0.1 - 2.0)
 - **Bounce (Restitution)**: Control how much blocks bounce (0 - 1)
-- **Scroll Gravity**: Enable gravity changes based on scroll position
 
 == Installation ==
 

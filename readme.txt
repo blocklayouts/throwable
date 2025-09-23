@@ -49,6 +49,13 @@ You can use most common blocks including paragraphs, headings, buttons, and imag
 
 Yes, the block is fully responsive and the physics simulation works on all devices. The block automatically adjusts its size and behavior for mobile screens.
 
+== Resources ==
+
+This plugin uses Matter.js for physics simulation, which is licensed under the MIT License.
+
+- **Matter.js**: https://github.com/liabru/matter-js/blob/master/LICENSE
+- **License**: MIT License
+
 == Changelog ==
 
 = 0.1.0 =

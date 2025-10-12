@@ -81,7 +81,6 @@ The Throwable block works with most common WordPress blocks:
 ### Technologies Used
 - **Matter.js**: Physics simulation engine ([MIT License](https://github.com/liabru/matter-js/blob/master/LICENSE))
 
-
 ## Changelog
 
 ### 0.1.0

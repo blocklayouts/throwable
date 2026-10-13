@@ -1,8 +1,8 @@
 === Throwable ===
 Contributors:      blocklayouts, qarayahya
 Tags:              block, physics, animation, interactive, gutenberg
-Tested up to:      6.8
-Stable tag:        0.1.2
+Tested up to:      7.1
+Stable tag:        0.1.3
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -58,7 +58,11 @@ This plugin uses Matter.js for physics simulation, which is licensed under the M
 
 == Changelog ==
 
-= 0.1.2=
+= 0.1.3 =
+
+* Tested with WordPress 7.1.
+
+= 0.1.2 =
 
 * Fixed: Prevented direct file access.
 

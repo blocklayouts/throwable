@@ -1,15 +1,13 @@
 # Updates readme.txt and the .wordpress-org images (banners, icons, screenshots)
 # on WordPress.org without a new release, e.g. after bumping "Tested up to".
 #
+# Manual only: run it from Actions → "Update WordPress.org readme and assets" →
+# Run workflow. Releases already publish the readme and assets (deploy.yml).
+#
 # Runs on blocklayouts/throwable only, with the same SVN credentials as deploy.yml.
 name: Update WordPress.org readme and assets
 
 on:
-  push:
-    branches: [master]
-    paths:
-      - readme.txt
-      - .wordpress-org/**
   workflow_dispatch:
 
 jobs:

@@ -25,6 +25,17 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v5
 
+      - name: Check the WordPress.org SVN credentials are set
+        env:
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME || vars.SVN_USERNAME }}
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+        run: |
+          if [ -z "$SVN_USERNAME" ] || [ -z "$SVN_PASSWORD" ]; then
+            echo "::error::SVN_USERNAME and/or SVN_PASSWORD are not set in Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+          echo "Deploying as WordPress.org user: $SVN_USERNAME"
+
       - name: Check version numbers match the release tag
         run: |
           VERSION="${GITHUB_REF_NAME#v}"
